@@ -10,7 +10,7 @@ export default function HomePage() {
             다양한 웹 애플리케이션을 하나의 플랫폼에서 사용하세요
           </p>
 
-          <div className="grid md:grid-cols-2 gap-8 max-w-2xl mx-auto">
+          <div className="grid md:grid-cols-3 gap-8 max-w-4xl mx-auto">
             <div className="bg-white p-6 rounded-lg shadow-md">
               <h3 className="text-lg font-semibold text-gray-900 mb-2">
                 날씨 앱
@@ -38,6 +38,21 @@ export default function HomePage() {
                 className="inline-block bg-blue-600 text-white px-4 py-2 rounded-md hover:bg-blue-700 transition-colors"
               >
                 노트 앱 사용하기
+              </a>
+            </div>
+
+            <div className="bg-white p-6 rounded-lg shadow-md">
+              <h3 className="text-lg font-semibold text-gray-900 mb-2">
+                인증 앱
+              </h3>
+              <p className="text-gray-600 mb-4">
+                NextAuth.js를 사용한 인증 시스템 예제 애플리케이션입니다.
+              </p>
+              <a
+                href="/auth-app"
+                className="inline-block bg-purple-600 text-white px-4 py-2 rounded-md hover:bg-purple-700 transition-colors"
+              >
+                인증 앱 사용하기
               </a>
             </div>
           </div>

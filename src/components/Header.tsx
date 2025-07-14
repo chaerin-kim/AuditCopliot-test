@@ -23,6 +23,12 @@ export default function Header() {
             >
               노트 앱
             </Link>
+            <Link
+              href="/auth-app"
+              className="text-gray-700 hover:text-green-600 px-3 py-2 rounded-md text-sm font-medium transition-colors"
+            >
+              인증 앱
+            </Link>
           </nav>
         </div>
       </div>

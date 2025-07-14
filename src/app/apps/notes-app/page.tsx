@@ -1,12 +1,12 @@
 'use client';
 
-export default function NotesAppPage() {
+export default function ClerkAppPage() {
   return (
     <div style={{ height: 'calc(100vh - 64px)' }}>
       <iframe
-        src="https://react-notes-app.vercel.app/"
+        src="https://supabase.clerk.app/"
         className="w-full h-full border-0"
-        title="Notes App"
+        title="Clerk + Supabase Todo App"
         sandbox="allow-scripts allow-same-origin allow-forms allow-popups allow-modals"
       />
     </div>

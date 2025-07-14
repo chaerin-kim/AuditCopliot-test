@@ -11,6 +11,10 @@ const nextConfig = {
         source: '/notes-app/:path*',
         destination: '/apps/notes-app/:path*',
       },
+      {
+        source: '/auth-app/:path*',
+        destination: '/apps/auth-app/:path*',
+      },
     ];
   },
 };
