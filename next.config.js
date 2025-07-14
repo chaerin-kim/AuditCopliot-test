@@ -1,17 +1,15 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  experimental: {
-    appDir: true,
-  },
   async rewrites() {
     return [
+      // 내부 앱 라우팅
       {
-        source: '/naver/:path*',
-        destination: '/apps/naver/:path*',
+        source: '/weather-app/:path*',
+        destination: '/apps/weather-app/:path*',
       },
       {
-        source: '/google/:path*',
-        destination: '/apps/google/:path*',
+        source: '/notes-app/:path*',
+        destination: '/apps/notes-app/:path*',
       },
     ];
   },
