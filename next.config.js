@@ -8,8 +8,8 @@ const nextConfig = {
         destination: '/apps/weather-app/:path*',
       },
       {
-        source: '/notes-app/:path*',
-        destination: '/apps/notes-app/:path*',
+        source: '/todo/:path*',
+        destination: '/todo/:path*',
       },
       {
         source: '/auth-app/:path*',
