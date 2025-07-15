@@ -12,22 +12,22 @@ export default function Header() {
           </Link>
           <nav className="flex space-x-4">
             <Link
-              href="/weather-app"
+              href="/?zone=zone1"
               className="text-gray-700 hover:text-green-600 px-3 py-2 rounded-md text-sm font-medium transition-colors"
             >
-              날씨 앱
+              Zone 1
             </Link>
             <Link
-              href="/notes-app"
+              href="/?zone=zone2"
               className="text-gray-700 hover:text-green-600 px-3 py-2 rounded-md text-sm font-medium transition-colors"
             >
-              노트 앱
+              Zone 2
             </Link>
             <Link
-              href="/auth-app"
+              href="/?zone=zone3"
               className="text-gray-700 hover:text-green-600 px-3 py-2 rounded-md text-sm font-medium transition-colors"
             >
-              인증 앱
+              Zone 3
             </Link>
           </nav>
         </div>
